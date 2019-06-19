@@ -1,0 +1,93 @@
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+<style>
+
+input[type=text], input[type=text], input[type=number] {
+    width: 100%;
+    padding: 5px;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+
+
+ .button {
+    position: right;
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+}
+
+</style>
+</head>
+
+<body style="background-color:grey; " >
+<form action="/addrec" method="POST">
+<h1 style="background-color:darkorange;text-align: center;">
+<u><I>ONLINE MEGAKART</I></u>
+</h1>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-3">
+  
+</div>
+<div class="col-lg-6">
+  
+    <h2>Please enter your detials</h2>
+    
+    <hr>
+     <label for="psw" style="color: black"><b>Name</b></label>
+    <input type="text" placeholder="Enter name" name="username" >
+
+     <label for="email" style="color: black"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw" style="color: black"><b>Address</b></label>
+    <input type="text" placeholder="Address" name="Address" required>
+    
+    <label for="psw" style="color: black"><b>Area</b></label>
+    <input type="text" placeholder="Area" name="Area" required>
+
+    <label for="psw" style="color: black"><b>City</b></label>
+    <input type="text" placeholder="City" name="City" required>
+
+    <label for="psw" style="color: black"><b>State</b></label>
+    <input type="text" placeholder="State" name="State" required>
+
+    <label for="psw" style="color: black"><b>Contact </b></label>
+    <input type="number" placeholder="Contact No" name="Contact " required>
+    
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+    
+    <center>
+    
+    <input type="button"  class="button btn-success" value="Make payment" ></form>
+</center>
+</center>
+</div></div>
+<div class="col-lg-3"></div>
+</div>
+</body>
+
+
